@@ -1,0 +1,19 @@
+
+
+// Select the database to use.
+use('pocketdb');
+
+db.instrument_weights.insertMany([
+  { 'risk_score': 0, 'nigerian_stocks': 18, 'foriegn_stocks': 4, 'tech_stocks': 2, 'emerging_stocks':7, 'nigerian_bonds':35, 'foriegn_bonds':15,'commodities':7,'real_estate':12, 'tbills':0,'alternative':0 },
+  { 'risk_score': 1, 'nigerian_stocks': 20, 'foriegn_stocks':  5, 'tech_stocks': 3, 'emerging_stocks':7, 'nigerian_bonds':35, 'foriegn_bonds':6,'commodities':12,'real_estate':12, 'tbills':0,'alternative':0 },
+  { 'risk_score': 2, 'nigerian_stocks': 23, 'foriegn_stocks': 5, 'tech_stocks': 4, 'emerging_stocks':7, 'nigerian_bonds':35, 'foriegn_bonds':14,'commodities':12,'real_estate':0, 'tbills':0,'alternative':0 },  
+  { 'risk_score': 3, 'nigerian_stocks': 26, 'foriegn_stocks': 6, 'tech_stocks': 4, 'emerging_stocks':7, 'nigerian_bonds':35, 'foriegn_bonds':10,'commodities':12,'real_estate':0, 'tbills':0,'alternative':0 },
+  { 'risk_score': 4, 'nigerian_stocks': 29, 'foriegn_stocks': 7, 'tech_stocks': 5, 'emerging_stocks':6, 'nigerian_bonds':35, 'foriegn_bonds':6,'commodities':12,'real_estate':0, 'tbills':0,'alternative':0 },
+  { 'risk_score': 5, 'nigerian_stocks': 31, 'foriegn_stocks': 8, 'tech_stocks':6, 'emerging_stocks':5, 'nigerian_bonds':35, 'foriegn_bonds':3,'commodities':12,'real_estate':0, 'tbills':0,'alternative':0 }, 
+  { 'risk_score': 6, 'nigerian_stocks': 35, 'foriegn_stocks': 8, 'tech_stocks': 7, 'emerging_stocks':3, 'nigerian_bonds':35, 'foriegn_bonds':12,'commodities':0,'real_estate':0, 'tbills':0,'alternative':0 },
+  { 'risk_score': 7, 'nigerian_stocks': 45, 'foriegn_stocks': 13, 'tech_stocks': 12, 'emerging_stocks':7, 'nigerian_bonds':23, 'foriegn_bonds':0,'commodities':0,'real_estate':0, 'tbills':0,'alternative':0 },
+  { 'risk_score': 8,  'nigerian_stocks': 45, 'foriegn_stocks': 15, 'tech_stocks': 15, 'emerging_stocks':9, 'nigerian_bonds':16, 'foriegn_bonds':0,'commodities':0,'real_estate':0, 'tbills':0,'alternative':0 },
+  { 'risk_score': 9,  'nigerian_stocks': 45, 'foriegn_stocks': 18, 'tech_stocks': 17, 'emerging_stocks':11, 'nigerian_bonds':9, 'foriegn_bonds':0,'commodities':0,'real_estate':0, 'tbills':0,'alternative':0 },
+  { 'risk_score': 10,  'nigerian_stocks': 45, 'foriegn_stocks': 20, 'tech_stocks': 19, 'emerging_stocks':14, 'nigerian_bonds':2, 'foriegn_bonds':0,'commodities':0,'real_estate':0, 'tbills':0,'alternative':0 }
+]);
+
